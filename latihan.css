@@ -1,0 +1,63 @@
+.animate-in {
+    animation: fade-slide 1.5s forwards;
+  }
+
+  #flex-container{
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+  
+}
+.flex-box{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 320px;
+    font-size: 15px;
+    
+
+  
+}
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#name{
+    font-weight: bold;
+}
+#phone{
+    text-decoration: underline;
+}
+
+  @keyframes fade-slide {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.start-over button {
+    background-color: #fa923f;
+    border: 1px solid #fa923f;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 5px;
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .start-over button:hover {
+    background-color: #ff7f16;
+  }
+  
