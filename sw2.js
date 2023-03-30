@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
           cache.addAll([
             '/',
-            'latihan UTS.html',
+            'latihanUTS.html',
             'latihan.css',
             'latihan.js'
           ])
